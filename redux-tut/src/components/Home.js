@@ -3,7 +3,11 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      <h1>Home Component</h1>
+
+      <div className='add-to-cart'>
+        <img src='https://static.vecteezy.com/system/resources/previews/000/496/007/original/vector-add-to-cart-icon-design.jpg' alt='cart-button'/>
+      </div>
+      <h1>Shopping Cart</h1>
 
       <div className="Cart-Wrapper">
         <div className="Image-wrapper">
@@ -14,7 +18,7 @@ const Home = () => {
                 <strong>I-Phone 9</strong>
             </span>
             <span>
-                Price: 1,13,000
+                Price: $500
             </span>
 
         </div>
